@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body{
+	width: 700px;
+	margin: 0 auto;
+	position: relative;
+}
+#container h1{
+	font-size: 40px;
+	margin: 30px 0 50px;
+}
+#content{
+	height: 600px;
+}
+button{
+	width: 100px;
+	height: 30px;
+}
+#reg{
+	position: absolute;
+	right: 0;
+}
+#count{
+	position: relative;
+}
+#count b{
+	position: absolute;
+	top: -25px;
+	right: 0;
+}
+#no{
+	margin-right: 30px;
+}
+#title_hr{
+	margin: 20px 0;
+}

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 700px;
+	margin: 0 auto;
+}
+h1{
+	margin: 20px 0;
+	text-align: center;	
+}
+table{
+	border-collapse: collapse;
+	text-align: center;
+	width: 700px;
+}
+table td, table th{
+	padding: 10px 20px;
+	border: 1px solid black;
+	border-width: 1px 0;
+}
+#th{
+	background-color: rgb(182, 197, 196);
+}
+#table a{
+	text-decoration: none;
+	color: black;
+}
+#table a:hover{
+	color: rgb(182, 197, 196);
+}
+#button{
+	margin-top: 40px;
+	width: 100px;
+	height: 30px;
+}
+.button{
+	padding: 6px 10px;
+}
+#page{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+table{
+	border-collapse: collapse;
+}
+tr{
+	border-top: 1px solid lightgrey;
+}
+table tr:last-child{
+	border-bottom: 1px solid lightgrey;
+}
+td{
+	padding: 10px 0;
+}
+table{
+	width: 800px;
+}
+form input{
+	font-size: 15px;
+	width: 200px;
+	height: 40px;
+}
+textarea{
+	font-size: 15px;
+}
+#two{
+	width: 300px;
+	height: 40px;
+}
+#form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+	text-align: center;
+}
+button{
+	width: 100px;
+	height: 30px;
+	margin-top: 20px;
+}
